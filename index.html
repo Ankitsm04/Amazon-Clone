@@ -247,7 +247,47 @@
         padding-top: 5px;
         font-size: 0.8rem;
         text-align: center;
-    }</style>
+    }
+    
+    @media only screen and (max-width: 500px) {
+        .hero-sec{
+            background-image: url("hero_image.jpg");
+            height: 340px;
+            background-size: 140%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+        }
+        .pannel p{
+            margin-bottom: 10px;
+        }
+        .pannel{
+            height: 50px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        ul a{
+            font-size: 10px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .navbar{
+            justify-content: flex-start space-around;
+            height: 150px;
+            flex-wrap: wrap;
+ 
+        }
+        .hero-msg{
+            height: 55px;
+            border-radius: 2%;
+        }
+        .box {
+          width: 200%; 
+          flex-wrap: wrap;
+        }
+      }
+</style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
@@ -317,7 +357,7 @@
     </header>
     <div class="hero-sec">
         <div class="hero-msg">
-           <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.<a href="#">Click here to go to amazon.in</a></p>
+           <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.<a href="https://www.amazon.in/">Click here to go to amazon.in</a></p>
         </div>
     </div>
 
