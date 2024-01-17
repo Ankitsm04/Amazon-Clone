@@ -2,8 +2,8 @@
         margin: 0;
         font-family: Arial;
         border: border-box;
-    }
-    .navbar{
+}
+.navbar{
         height: 60px;
         background-color: #0f1111;
         color:  white;
@@ -12,38 +12,38 @@
         justify-content: space-evenly;
     
     }
-    .nav-logo{
+.nav-logo{
         height: 50px;
         width: 100px;
     }
-    .logo{
+.logo{
         background-image: url("amazon_logo.png");
         background-size: cover;
         height: 50px;
         width: 100%;
     }
-    .border{
+.border{
         border: 1.5px solid transparent;
     }
-    .border:hover{
+.border:hover{
         border-color: white;
     }
-    .ad1{
+.ad1{
         color: #cccccc;
         margin-left: 15px;
         font-size: 0.85rem;
     }
-    .ad2{
+ .ad2{
         font-size: 1rem;
         margin-left: 3px;
     
     }
-    .add-icon{
+.add-icon{
         display: flex;
         align-items: center;
     
     }
-    .nav-search{
+.nav-search{
         width: 620px;
         height: 40px;
         display: flex;
@@ -51,7 +51,7 @@
         border-radius: 4px;
         justify-content: space-evenly;
     }
-    .search-select{
+.search-select{
         background-color: #f3f3f3;
         width: 50px;
         text-align: center;
@@ -59,13 +59,13 @@
         border-bottom-left-radius: 4px;
         border: none;
     }
-    .search-input{
+.search-input{
         width: 100%;
         font-size: 1rem;
         border-radius: 0px;
         border: none;
     }
-    .search-icon{
+.search-icon{
         width: 45px;
         border-top-right-radius: 4px;
         border-bottom-right-radius: 4px;
@@ -76,40 +76,40 @@
         background-color: #febd68;
         color: #0f1111;
     }
-    .flag{
+.flag{
         width: 17px;
         height: 19px;
         margin: 0px 2px 1px 0px;
         border-radius: 0%;
     }
-    .nation{
+.nation{
         font-weight: bold;
         background-color: #0f1111;
         color: white;
         font-family: Arial;
         border: none;
     }
-    .f{
+.f{
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .ft{
+.ft{
         font-size: 0.7rem;
     
     }
-    .st{
+.st{
         font-size: 0.85rem;
         font-weight: 700;
     }
-    .nav-search:hover{
+.nav-search:hover{
         border: 2px solid orange;
     }
-    .nav-cart i{
+.nav-cart i{
         font-size: 30px;
     }
     
-    .pannel{
+.pannel{
         height: 40px;
         background-color: #222f3d;
         display: flex;
@@ -118,19 +118,19 @@
         justify-content: space-evenly;
     }
     
-    .pannel-ops p{
+.pannel-ops p{
         display: inline;
         margin-left: 15px;
     }
-    .pannel-ops{
+.pannel-ops{
         width: 70%;
         font-size: 0.85rem;
     }
-    .pannel-deals{
+.pannel-deals{
         font-size: 0.9rem;
         font-weight: 700;
     }
-    .hero-sec{
+.hero-sec{
         background-image: url("hero_image.jpg");
         height: 340px;
         background-size: cover;
@@ -138,7 +138,7 @@
         justify-content: center;
         align-items: flex-end;
     }
-    .hero-msg{
+.hero-msg{
         background-color: white;
         color: black;
         height: 40px;
@@ -148,12 +148,12 @@
         width: 97%;
         margin-bottom: 25px;
     }
-    .hero-msg a{
+.hero-msg a{
         text-decoration: none;
         color: #007185;
     }
     
-    .box{
+.box{
         height: 400px;
         width: 22%;
         border: 2px solid black;
@@ -161,29 +161,29 @@
         padding: 20px 0px 15px;
         margin: 15px;
     }
-    .shop-sec{
+.shop-sec{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
         background-color: #e2e7e6;
     
     }
-    .box-img{
+.box-img{
         background-size: cover;
         height: 300px;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-    .box-content{
+.box-content{
         margin-left: 1rem;
         margin-right: 1rem;
     
     }
-    .box-content p{
+.box-content p{
         color: #007185;
     }
     
-    .foot-pannel1{
+.foot-pannel1{
         background-color: #222f3d;
         color: white;
         height: 50px;
@@ -192,27 +192,27 @@
         align-items: center;
         font-size: 0.85rem;
     }
-    footer{
+footer{
         margin-top: 15px;
     }
-    .foot-pannel2{
+.foot-pannel2{
         background-color: #222f3d;
         color: white;
         height: 350px;
         display: flex;
         justify-content: space-evenly;
     }
-    ul a{
+ul a{
         display: block;
         margin-top: 10px;
         font-size: 0.75rem;
         color: #dddddd;
     }
-    ul p{
+ul p{
         font-weight: 700;
     
     }
-    .foot-pannel3{
+.foot-pannel3{
         background-color: #222f3d;
         color: white;
         border-top: 0.5px solid white;
@@ -222,29 +222,29 @@
         align-items: center;
     
     }
-    .logo{background-image: url("amazon_logo.png");
+.logo{background-image: url("amazon_logo.png");
         background-size: cover;
         height: 50px;
         width: 100px;
     
     }
-    .foot-pannel4{
+.foot-pannel4{
         background-color: #0f1111;
         color: white;
     }
-    .pages{
+.pages{
         font-size: 0.7rem;
         text-align: center;
         padding-top: 20px;
     }
-    .copyright{
+.copyright{
         padding-top: 5px;
         font-size: 0.8rem;
         text-align: center;
     }
     
-    @media only screen and (max-width: 500px) {
-        .hero-sec{
+@media only screen and (max-width: 500px) {
+.hero-sec{
             background-image: url("hero_image.jpg");
             height: 340px;
             background-size: 140%;
@@ -252,31 +252,31 @@
             justify-content: flex-start;
             align-items: flex-end;
         }
-        .pannel p{
+.pannel p{
             margin-bottom: 10px;
         }
-        .pannel{
+.pannel{
             height: 50px;
             flex-wrap: wrap;
             justify-content: space-around;
             align-items: center;
         }
-        ul a{
+ul a{
             font-size: 10px;
             display: flex;
             flex-wrap: wrap;
         }
-        .navbar{
+.navbar{
             justify-content: flex-start space-around;
             height: 150px;
             flex-wrap: wrap;
  
         }
-        .hero-msg{
+.hero-msg{
             height: 55px;
             border-radius: 2%;
         }
-        .box {
+.box {
           width: 200%; 
           flex-wrap: wrap;
         }
